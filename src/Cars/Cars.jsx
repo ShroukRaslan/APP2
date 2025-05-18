@@ -14,9 +14,7 @@ export default function Cars() {
     navigate("/AllCars"); 
   };
 
-const showClick =()=>{
-  navigate("/CarDetail"); 
-};
+
   let [cars, setCars] = useState([]);
   let getCars = async() =>{
     try {
@@ -140,12 +138,12 @@ const showClick =()=>{
         <div className="d-flex justify-content-between align-items-center mb-3">
           <p className="text-muted mb-0">Price</p>
           <div className="d-flex align-items-baseline gap-1">
-            <h6 className="mb-0">$2814.46</h6>
+            <h6 className="mb-0">{car?.price}</h6>
             <p className="text-muted mb-0">/ day</p>
           </div>
         </div>
 
-        <button onClick={showClick} className="btn btn-primary w-100 text-white text-decoration-none">
+        <Link to={`/carDetail/${car?.id}`} className="btn btn-primary w-100 text-white text-decoration-none">
           View details
           <img
             src="src/assets/imges/card/arrow-right.png"
@@ -154,7 +152,7 @@ const showClick =()=>{
             width={16}
             height={16}
           />
-        </button>
+        </Link>
       </div>
 </div>
 </div>
@@ -165,7 +163,7 @@ const showClick =()=>{
           
       {/* Button */}
       <div className="text-center mb-5">
-        <button onClick={showClick} className="btn btn-outline-dark button" >
+        <button onClick={handleClick} className="btn btn-outline-dark button" >
           Show All Vehicles
           <i className="bi bi-arrow-right ps-2"></i>
         </button>    

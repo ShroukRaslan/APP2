@@ -7,12 +7,12 @@ export default function Contacts() {
       
     <div className="footer container">
       <div className="row">
-        {/* العمود الأول */}
+        {/* first colomn*/}
         <div className=" col-md-4 my-5 mx-3">
           <div className="d-flex flex-column flex-sm-row justify-content-between">
             <div className="text-center text-sm-start mb-4 mb-sm-0">
               <img
-                src="your-logo-url.png"
+                src="src/assets/imges/nav/logo.png"
                 alt="footer logo"
                 className="img-fluid mb-3"
                 style={{ maxWidth: "200px" }}
@@ -20,7 +20,7 @@ export default function Contacts() {
 
               {/* Location */}
               <div className="d-flex align-items-center mb-3 text-white">
-                <img src="location-icon.png" alt="location" style={{ width: "24px" }} />
+                <img src="src/assets/imges/footer/location.png" alt="location" style={{ width: "24px" }} />
                 <small className="mx-2">
                   25566 Hc 1,Glenallen,<br />Alaska, 99588, USA
                 </small>
@@ -28,18 +28,17 @@ export default function Contacts() {
 
               {/* Phone */}
               <div className="d-flex align-items-center mb-3 text-white">
-                <img src="phone-icon.png" alt="phone number" style={{ width: "24px" }} />
+                <img src="src/assets/imges/footer/call.png" alt="phone number" style={{ width: "24px" }} />
                 <small className="mx-2">+603 4784 273 12</small>
               </div>
 
               {/* Email */}
               <div className="d-flex align-items-center mb-3 text-white">
-                <img src="email-icon.png" alt="email" style={{ width: "24px" }} />
+                <img src="src/assets/imges/footer/sms.png" alt="email" style={{ width: "24px" }} />
                 <small className="mx-2">rentcars@gmail.com</small>
               </div>
             </div>
 
-            {/* روابط المنتجات */}
             <div className="text-white mt-3 mt-sm-0">
               <div className="h6 text-capitalize mb-4">our products</div>
               <ul className="nav flex-column">
@@ -53,7 +52,7 @@ export default function Contacts() {
           </div>
         </div>
 
-        {/* العمود الثاني */}
+        {/* scenond colomn*/}
         <div className="col-12 col-md-7 my-md-5 mb-5">
           <div className="row">
             {/* about */}
@@ -85,10 +84,10 @@ export default function Contacts() {
             <div className="col-12 col-sm-4 text-white">
               <div className="h6 text-capitalize mb-4">follow us</div>
               <div className="d-flex gap-3 flex-wrap">
-                <img src="facebook-icon.png" alt="facebook" style={{ width: "24px" }} />
-                <img src="twitter-icon.png" alt="twitter" style={{ width: "24px" }} />
-                <img src="instagram-icon.png" alt="instagram" style={{ width: "24px" }} />
-                {/* يمكنك إضافة المزيد من الأيقونات هنا */}
+                <img src="src/assets/imges/footer/facebook.png" alt="facebook" style={{ width: "24px" }} />
+                <img src="src/assets/imges/footer/youtube.png" alt="twitter" style={{ width: "24px" }} />
+                <img src="src/assets/imges/footer/instagram.png" alt="instagram" style={{ width: "24px" }} />
+               
               </div>
             </div>
           </div>

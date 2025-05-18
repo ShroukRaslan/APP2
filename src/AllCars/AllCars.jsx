@@ -121,7 +121,7 @@ export default function AllCars() {
         <div className="d-flex justify-content-between align-items-center mb-3">
           <p className="text-muted mb-0">Price</p>
           <div className="d-flex align-items-baseline gap-1">
-            <h6 className="mb-0">$2814.46</h6>
+            <h6 className="mb-0">{car?.price}</h6>
             <p className="text-muted mb-0">/ day</p>
           </div>
         </div>

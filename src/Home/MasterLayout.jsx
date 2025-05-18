@@ -8,9 +8,9 @@ export default function MasterLayout() {
   return (
     <div> 
       <div className='container-fluid px-0'>
-      <Navbar />
+      
       <Outlet />
-      <Contacts />
+     
       </div>
     </div>
   )

@@ -2,6 +2,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
+import CarPhoto from '../../public/Audi 1.png';
 
 
 
@@ -26,7 +27,7 @@ export default function CarDetail() {
         <div className="col-md-6 text-center mb-4 mb-md-0">
           <div className="bg-light p-3 rounded">
             <img
-              src="src/assets/imges/landing-page/sec-5/Audi 1.png"
+              src={CarPhoto}
               alt="Audi R8"
               className="img-fluid"
             />
